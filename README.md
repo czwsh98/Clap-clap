@@ -42,5 +42,8 @@ Any algorithms or special techniques:
 
 Electronic Mockup:
 ![Electronic Mockup Diagram](/Mockup.png "Wireframe mockup")
-	
 
+# Comments by Ming
+* Excellent. Please proceed
+* If I recall correctly, this was the semester project theme for spring 2017
+* I've seen a team do this before
