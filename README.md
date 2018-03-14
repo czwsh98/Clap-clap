@@ -4,7 +4,7 @@ COMP20 Ming Chow
 March 9, 2018
 
 
-#Clap, Clap
+# Clap, Clap
 
 
 Problem statement:
