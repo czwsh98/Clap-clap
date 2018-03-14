@@ -41,6 +41,7 @@ Any algorithms or special techniques:
 * Rechecking and gathering data at the end of every song—listener to see when song has ended, and loop to regather the requisite data. 
 
 Electronic Mockup:
+--------------------
 ![Electronic Mockup Diagram](/Mockup.png "Wireframe mockup")
 
 # Comments by Ming
