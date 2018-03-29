@@ -1,3 +1,10 @@
 div {
 	text-align: center;
 }
+
+.blocks {
+	margin-left: 10%;
+	margin-right: 10%;
+	align-content: center;
+	text-align: center;
+}
