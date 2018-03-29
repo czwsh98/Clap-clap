@@ -6,19 +6,28 @@
     <link rel="stylesheet" href="style.css" />
     
 <head>
-   
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>          
+<script src="weather.js"></script>
 </head>
 
 <body>
-	<div><img src="icon.png" alt="icon"> <img src="icon.png" alt="icon"></div>
+        <div><img src="icon.png" alt="icon"> <img src="icon.png" alt="icon"></div>
 	<table class="blocks">
 	    <tr>
 	        <td><p>User Input</p> </td>
 	        <td><p>Scheduled Events</p> </td>
-	        <td><p>Real-time weather</p> </td>
+	        <td><p>Real-time weather</p> 
+                        <div class="container" hidden>
+                                <div class="jumbotron"></div>
+                                <div id="forecast" class="row"></div>
+                        </div>
+                </td>
 	    </tr>
-	</table>		
-</body>
+	</table>
 
+ 
+</body>
 
 </html>
