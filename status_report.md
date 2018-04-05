@@ -10,4 +10,4 @@ We were having a lot of problems trying to embed and SDK player on the page so t
 
 (3) What are your goals for the next week?
 
-Do the CSS for the web page. Create a server and connect it to a database. Link user input to getting recommendations.
+Do the CSS for the web page. Create a server and connect it to a database. Link user input to getting recommendations. Figure out how to do authorized Spotify API request.
