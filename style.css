@@ -1,10 +1,20 @@
-div {
+body {
 	text-align: center;
 }
 
+<<<<<<< HEAD
 .blocks {
         margin-left:auto; 
         margin-right:auto; 
 	align-content: center;
 	text-align: center;
+=======
+table{
+	 width: 100%;
+	 text-align: center;
+}
+
+td{
+	width: 33%;
+>>>>>>> cda7f1bdde8345c18046a58ed4ace836a3b7194f
 }
