@@ -1,0 +1,10 @@
+{
+  "name": "spotifyApp",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "latest",
+    "body-parser": "latest",
+    "mongodb": "^2.2.33",
+    "validator": "latest"
+  }
+}
