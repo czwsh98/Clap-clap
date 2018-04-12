@@ -1,25 +1,15 @@
 body {
 	text-align: center;
-	background: #d9f8fc;
-	font-family: "Helvetica Neue";
-	font-size: 22px;
-
-
 }
-#CLAP{
-	text-align: center;
-	font-family: "Helvetica Neue";
-	font-size: 32px;
-	letter-spacing: 7px;
 
-}
-<<<<<<< HEAD
+
 .blocks {
         margin-left:auto; 
         margin-right:auto; 
 	align-content: center;
 	text-align: center;
-=======
+}
+
 table{
 	 width: 100%;
 	 text-align: center;
@@ -27,5 +17,4 @@ table{
 
 td{
 	width: 33%;
->>>>>>> cda7f1bdde8345c18046a58ed4ace836a3b7194f
 }
