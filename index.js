@@ -29,7 +29,7 @@ app.use(express.static(__dirname + "/public"));
 
 app.post('/schedule', function(request, response) {
 	if ((request.body.username == null)){
-		console.log("huh");
+		response.send("/public");
 	}
 });
 
