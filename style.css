@@ -1,5 +1,8 @@
 body {
  	text-align: center;
+ 	font-family: "Helvetica Neue";
+	font-size: 22px;
+	color: black;
  }
 
 table{
