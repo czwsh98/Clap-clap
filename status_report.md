@@ -11,3 +11,18 @@ We were having a lot of problems trying to embed and SDK player on the page so t
 (3) What are your goals for the next week?
 
 Do the CSS for the web page. Create a server and connect it to a database. Link user input to getting recommendations. Figure out how to do authorized Spotify API request.
+
+
+STATUS REPORT 2:
+
+(1) What was accomplished during the week?
+
+Reorganized our design and how the pieces of our project interact with each other. We changed it so we create a server a la assignment 3 that we are planning to have send pack a Spotify URI when we POST a mood. This will be used in conjunction with our application where we will submit a post request to the server to GET Spotify playlist. We also weather API words to words to query into the database. 
+
+(2) What were the challenges and issues the team faced during the week?
+
+Trying to figure out how to consolidate user input into the database and changing what is displayed on the page ergo the redesign.
+
+(3) What are your goals for the next week?
+
+Implement the server, fill the server, implement the page. Essentially doing assignment 2 and 3 again.
