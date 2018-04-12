@@ -10,6 +10,19 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>          
     <script src="weather.js"></script>
+
+    <script>
+         $(document).ready(function() {
+            $('#mood').keypress(function (event) {
+                if (event.which == 13) {
+                    var intake = $("#mood").val();
+                    event.preventDefault();
+                }
+            });
+
+        });
+    </script>
+
 </head>
 
 <body>
@@ -23,7 +36,11 @@
 	        <td><p>Real-time weather</p></td>
 	    </tr>
         <tr>
-            <td></td>
+            <td>
+                <form method="post" action="/user">
+                <p>Mood: <input type="text" id="mood" name="mood" maxlength="30" /></p>
+                </form>
+            </td>
             <td></td>
             <td>
                 <div class="container" hidden>
