@@ -1,7 +1,18 @@
 body {
 	text-align: center;
-}
+	background: #d9f8fc;
+	font-family: "Helvetica Neue";
+	font-size: 22px;
 
+
+}
+#CLAP{
+	text-align: center;
+	font-family: "Helvetica Neue";
+	font-size: 32px;
+	letter-spacing: 7px;
+
+}
 <<<<<<< HEAD
 .blocks {
         margin-left:auto; 
