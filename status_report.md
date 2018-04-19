@@ -28,3 +28,18 @@ Trying to figure out how to consolidate user input into the database and changin
 (3) What are your goals for the next week?
 
 Implement the server, fill the server, implement the page. Essentially doing assignment 2 and 3 again.
+
+
+STATUS REPORT 2:
+
+(1) What was accomplished during the week?
+
+Built the server and linked it with spotify playlists according to weather and mood. Gathered data from form on the HTML page. Starting design on the CSS page. 
+
+(2) What were the challenges and issues the team faced during the week?
+
+Server request is not always going through.
+
+(3) What are your goals for the next week?
+
+Fix the bug and finish of styling.
