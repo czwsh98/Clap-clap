@@ -37,23 +37,37 @@
 	    </tr>
         <tr>
             <td>
-                <form method="post" action="/user">
                 <p>Mood: <input type="text" id="mood" name="mood" maxlength="30" /></p>
                         <p>Username: <input type="text" name="username" maxlength="20"/></p>
-                        <p>Time: <input type="time" name="time"/></p>
+                        <p>Time: <input type="time"  name="time"/></p>
+                        <id = "mood">
                         <p>Mood: </p>
                         <select name="Mood">
                             <option value="Test1">test1</option>
                             <option value="test2">test2</option>
                             <option value="test3">test3</option>
                         </select>
+                        </form>
                         <p><button onclick="myFunction()">Submit</button></p>
 
 <p id="demo"></p>
 
 <script>
 function myFunction() {
-    document.getElementById("demo").innerHTML = "Hello World";
+    var x = document.getElementById("mood");
+    var toSend = "mood=" + x;
+    var xhttp = new XMLHttpRequest();
+    xhttp.open("POST", "http://clapclap-database.herokuapp.com/moods", true);
+    xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    xhttp.onreadystatechange= function(){
+        if(request.readystate == 4 && request.status == 200){
+            moodJSON = request.responseText;
+            moodData = JSON.parse(moodJSON);
+        }
+    }
+
+    xhttp.send(toSend);
+
 }
 </script>
                 </form>
