@@ -24,13 +24,37 @@ app.use(function(req, res, next) {
 app.use(express.static(__dirname + "/public"));
 
 
-
-
-
-app.post('/schedule', function(request, response) {
-	if ((request.body.username == null)){
-		response.send("/public");
+app.post('/moods', function(request, response) {
+	if ((request.body.mood == null)){
+		response.send("{uri: 'spotify:track:2WfaOiMkCvy7F5fcp2zZ8L'}");
 	}
+	else{
+		db.collection('playlists').find({"mood": request.body.mood}).toArray(function(err, results){
+			if (err) {response.send("{uri: 'spotify:track:2WfaOiMkCvy7F5fcp2zZ8L'}")}
+			else {
+				var temp = {};
+				temp.uri = results[0].uri;
+				response.send(temp);
+			}
+		});
+	}
+
+});
+
+
+app.post('/add', function(request, response) {
+	var toInsert = {
+		"mood": request.body.mood,
+		"uri": request.body.uri,
+	};
+	
+	db.collection('playlists').update({mood: request.body.mood}, toInsert, {upsert: true}, function(err, res){
+		if (err) {throw err;}
+		else{
+			response.send("submitted!");
+		};
+	});
+
 });
 
 
