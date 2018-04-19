@@ -39,6 +39,23 @@
             <td>
                 <form method="post" action="/user">
                 <p>Mood: <input type="text" id="mood" name="mood" maxlength="30" /></p>
+                        <p>Username: <input type="text" name="username" maxlength="20"/></p>
+                        <p>Time: <input type="time" name="time"/></p>
+                        <p>Mood: </p>
+                        <select name="Mood">
+                            <option value="Test1">test1</option>
+                            <option value="test2">test2</option>
+                            <option value="test3">test3</option>
+                        </select>
+                        <p><button onclick="myFunction()">Submit</button></p>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello World";
+}
+</script>
                 </form>
             </td>
             <td></td>
