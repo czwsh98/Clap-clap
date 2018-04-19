@@ -1,6 +1,6 @@
 body {
  	text-align: center;
- 	font-family: "Helvetica Neue";
+ 	font-family: "Avenir Next";
 	font-size: 22px;
 	color: black;
  }
@@ -12,4 +12,13 @@ table{
 
 td{
 	width: 33%;
+	font-size: 30px;
+	border-top: 5px solid yellow;
 } 
+
+#CLAP {
+	background-color: #78b714;
+	color: white;
+	margin-left: 30%;
+	margin-right: 30%;
+}
