@@ -9,24 +9,22 @@ $(document).ready(function(){
         console.log(data);
         var code = data.query.results.channel.item.condition.code;
         var query;
-        if(code <= 4 || code){
+        if(code <= 4){
         	query = 'extreme';
-        } else if(code <= 13) {
+        //EXTREME with METAL: spotify:user:spotify:playlist:37i9dQZF1DWXIcbzpLauPS
+        } else if((code >=5 && code <= 12) || (code == 35) || (code>=37 && code <=40) || (code == 45) || (code == 47)) {
         	query = 'rain';
-        } else if (code <= 17) {
-        	query = 'christmas';
-        } else if (code <= 22 || code == 35 || code == 36) {
-        	query = 'global warming';
-        } else if (code <= 24) {
-        	query = 'cold';
-        } else if (code <= 30) {
-        	query = 'chill';
-        } else if (code <= 34) {
+        //French cafe lounge: spotify:user:kamdiba:playlist:3x6xRt9FnSbfPbgiO6incZ 
+        } else if ((code >= 13 && code <=18) || (code >=41 && code <= 46)) {
+        	query = 'snowy';
+        // Snow day: spotify:user:daniellitton:playlist:7pe5wA5AeCOOZmbPBQg0zj
+        } else if ((code >=19 && code <= 30) || (code == 44)) {
+        	query = 'cloudy';
+        // Cloudy + traveling in space: spotify:user:diego.delao.granados:playlist:4OacDwTyD9dhRLxYRDD5vx
+        } else if ((code >=31 && code <= 34) || (code == 36)) {
         	query = 'sunny';
-        } else if (code <= 39) {
-        	query = 'thunderstorm';
+        // Surf rock sunny: spotify:user:spotify:playlist:37i9dQZF1DWYzpSJHStHHx
         }
-
         //https://developer.yahoo.com/weather/documentation.html#item
         });
     });
