@@ -13,7 +13,6 @@ table{
 td{
 	width: 33%;
 	font-size: 30px;
-	border-top: 5px solid yellow;
 } 
 
 #CLAP {
@@ -21,4 +20,8 @@ td{
 	color: white;
 	margin-left: 30%;
 	margin-right: 30%;
+}
+
+#t12 {
+	border-top: 5px solid red;
 }
