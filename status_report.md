@@ -1,4 +1,4 @@
-STATUS REPORT 1:
+#STATUS REPORT 1:
 
 (1) What was accomplished during the week?
 
@@ -12,9 +12,10 @@ We were having a lot of problems trying to embed and SDK player on the page so t
 
 Do the CSS for the web page. Create a server and connect it to a database. Link user input to getting recommendations. Figure out how to do authorized Spotify API request.
 
-Comments by Ming:
+#Comments by Ming:
 "but we eventually settled on 30 second clips of recommended songs since it's hard to listen to whole songs because of copyrigh" => yeah, that's perfect.
-STATUS REPORT 2:
+
+#STATUS REPORT 2:
 
 (1) What was accomplished during the week?
 
@@ -28,7 +29,7 @@ Trying to figure out how to consolidate user input into the database and changin
 
 Implement the server, fill the server, implement the page. Essentially doing assignment 2 and 3 again.
 
-STATUS REPORT 3:
+#STATUS REPORT 3:
 
 (1) What was accomplished during the week?
 
