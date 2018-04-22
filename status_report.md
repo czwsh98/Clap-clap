@@ -44,3 +44,6 @@ Server request is not always going through, more than one person need to work on
 (3) What are your goals for the next week?
 
 Fix the bug and finish off styling -- Wrapping up the project.
+
+# Comments by Ming
+* "Server request is not always going through" => why is that?  What are the errors?  
