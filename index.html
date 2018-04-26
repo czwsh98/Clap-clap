@@ -25,11 +25,9 @@
                     moodData = JSON.parse(moodJSON);
                 }
             }
-
             xhttp.send(toSend);
-
         }
-</script>
+    </script>
 
 </head>
 
@@ -46,15 +44,21 @@
 
         <tr>
             <td id="t21">
-                <p id="mood">Mood: </p>
-                    <select name="Mood">
+                <!--TODO takeoff-->
+                <p id="mood">Mood: </p>                
+                <!--<select name="Mood">
                         <option value="Test1">test1</option>
                         <option value="test2">test2</option>
                         <option value="test3">test3</option>
                     </select>
                 </form>
                 <p><button onclick="myFunction()">Submit</button></p>
-                </form>
+                </form>-->
+                <p><button onclick="getMood('sunny')">exultant</button></p>
+                <p><button onclick="getMood('cloudy')">melancholy</button></p>
+                <p><button onclick="getMood('rain')">cry</button></p>
+                <p><button onclick="getMood('snowy')">festive</button></p>
+                <p><button onclick="getMood('extreme')">wild</button></p>
             </td>
             <td id="t22">
 
