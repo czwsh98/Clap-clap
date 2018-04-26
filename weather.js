@@ -31,7 +31,6 @@ $(document).ready(function(){
 });
 
 function getMood(query) {
-    console.log("query" + query);
     toSend = "mood=" + query;
     xhttp = new XMLHttpRequest();
     xhttp.open("POST", "http://clapclap-database.herokuapp.com/moods", true);
