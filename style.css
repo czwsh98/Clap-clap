@@ -26,13 +26,15 @@ td{
 	letter-spacing: 10px;
 	font-size: 60px;
 	font-weight: 600;
+	padding-bottom: 7px;
 }
 
 .container{
 	font-family: "Helvetica Neue";
-	font-size: 20px;
+	font-size: 15px;
 	text-transform: uppercase;
 	letter-spacing:  3px;
+	color: #bfbfbf;
 
 }
 
@@ -67,7 +69,7 @@ td{
 }
 
 #button {
-    background-color: #4CAF50; /* Green */
+    background-color: #b3ffb3; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -76,4 +78,7 @@ td{
     display: inline-block;
     font-size: 16px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: "Helvetica Neue";
+    color: #999999;
+
 }
