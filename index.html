@@ -6,9 +6,7 @@
     <link rel="stylesheet" href="style.css" />
     
 <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>          
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>       
     <script src="weather.js"></script>
 
     <script>
@@ -33,24 +31,27 @@
 
 <body>
     <div id= CLAP><h1>CLAP CLAP</h1></div>
+    <br>
     <div><img src="icon.png" alt="icon"> <img src="icon.png" alt="icon"></div>
+    <br><br>
     
 	<table class="blocks">
 	    <tr>
-	        <td id="t11"><p>Tell us your mood right now!</p></td>
+	        <td id="t11"><p>How're you feeling?</p></td>
 	        <td id="t12"><p>Current Playlist</p></td>
-	        <td id="t13"><p>Real-time weather</p></td>
+	        <td id="t13"><p>Current Weather</p></td>
 	    </tr>
 
         <tr>
             <td id="t21">            
-                <p><button onclick="getMood('sunny')">exultant</button></p>
-                <p><button onclick="getMood('cloudy')">melancholy</button></p>
-                <p><button onclick="getMood('rain')">cry</button></p>
-                <p><button onclick="getMood('snowy')">festive</button></p>
-                <p><button onclick="getMood('extreme')">wild</button></p>
+                <p id="button"><button onclick="getMood('sunny')">exultant</button></p>
+                <p id="button"><button onclick="getMood('cloudy')">melancholy</button></p>
+                <p id="button"><button onclick="getMood('rain')">cry</button></p>
+                <p id="button"><button onclick="getMood('snowy')">festive</button></p>
+                <p id="button"><button onclick="getMood('extreme')">wild</button></p>
             </td>
             <td id="t22">
+            <br> <br>
 
                 
             </td>

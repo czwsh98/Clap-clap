@@ -41,7 +41,7 @@ function getMood(query) {
             moodJSON = xhttp.responseText;
             moodData = JSON.parse(moodJSON);
             var link = moodData.uri;
-            toPut = '<iframe src="https://open.spotify.com/embed?uri=' + link + '" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>';
+            toPut = '<p><br><iframe src="https://open.spotify.com/embed?uri=' + link + '" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></p>';
             $('#t22').html(toPut);
         }
     };

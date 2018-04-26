@@ -1,8 +1,9 @@
 body {
  	text-align: center;
- 	font-family: "Avenir Next";
+ 	font-family: "Helvetica Neue";
 	font-size: 22px;
 	color: black;
+	background-color: #f2f2f2;
  }
 
 table{
@@ -12,16 +13,61 @@ table{
 
 td{
 	width: 33%;
-	font-size: 30px;
+	font-size: 25px;
 } 
 
 #CLAP {
-	background-color: #78b714;
-	color: white;
-	margin-left: 30%;
-	margin-right: 30%;
+	background-color: #cceeff;
+	color:  #bfbfbf;
+	margin-left: 20%;
+	margin-right: 20%;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-size: 28px;
+
+}
+
+.container{
+	font-family: "Helvetica Neue";
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing:  3px;
+
 }
 
 #t12 {
-	border-top: 5px solid red;
+	padding-right: 5px;
+	background-color: #ffcc99;
+	color: #f2f2f2;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+
+
+}
+#t11{
+	margin-right: 5px; 
+	background-color: #ffcc99;
+	color: #f2f2f2;
+	margin: 20px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+
+
+}
+
+#t13{
+	background-color: #ffcc99;
+	color: #f2f2f2;
+	margin: 20px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+
+
+}
+#button{
+	font-family : inherit;
+    font-size: 1em;
+    letter-spacing: inherit;
+
 }
