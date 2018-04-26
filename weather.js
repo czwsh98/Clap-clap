@@ -1,5 +1,4 @@
 $(document).ready(function(){
-    console.log("heyyyy");
     navigator.geolocation.getCurrentPosition(function(position) {
         var query = 'extreme';
         x = position.coords.latitude;
@@ -8,7 +7,6 @@ $(document).ready(function(){
             $('.jumbotron').html('<h2>' + data.query.results.channel.item.title + '</h2>' + '<p> Temperature: ' + data.query.results.channel.item.condition.temp + '</p>' +
                     '<p> Condition: ' + data.query.results.channel.item.condition.text + '</p>')
             $('.container').show();
-            console.log(data);
             var code = data.query.results.channel.item.condition.code;
             if(code <= 4){
             	query = 'extreme';
@@ -26,7 +24,6 @@ $(document).ready(function(){
             	query = 'sunny';
             // Surf rock sunny: spotify:user:spotify:playlist:37i9dQZF1DWYzpSJHStHHx
             }
-            console.log(query);
             getMood(query);
         });
         
